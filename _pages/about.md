@@ -45,38 +45,8 @@ News
 Experience
 --------------
 
-<div class="experience-container">
-
-  <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
-          <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
-      </div>
-  </div>
-</div>
+- **05/2026–Present**, Research Intern at **Ant Group**.
+- **08/2025–03/2026**, Research Intern at **OPPO**.
 
 
 Publications
