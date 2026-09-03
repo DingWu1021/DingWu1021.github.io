@@ -114,6 +114,26 @@ Publications
 </div></div>
 
 <div class="publication-card"><div class="publication-card__inner">
+  <div class="pub-media-rotator"><img src="images/publications/lmgait.png" alt="Overview of the LMGait architecture" loading="lazy"></div>
+  <div class="publication-card__content"><strong>Language-Guided and Motion-Aware Gait Representation for Generalizable Recognition</strong><br>
+  <i class="publication-authors"><strong class="publication-author-me">Zhengxian Wu†</strong>, Chuanrui Zhang†, Shenao Jiang†, Hangrui Xu, Zirui Liao, Luyuan Zhang, Huaqiu Li, Peng Jiao, Haoqian Wang✉.</i><br>
+  LMGait uses language-derived motion cues together with motion-aware alignment and temporal modeling to learn more generalizable gait representations.<br>
+  <b><i class="publication-venue">AAAI 2026</i></b>
+  <a href="https://arxiv.org/abs/2601.11931" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
+  <a href="https://github.com/DingWu1021/LMGait" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
+</div></div>
+
+<div class="publication-card"><div class="publication-card__inner">
+  <div class="pub-media-rotator"><img src="images/publications/dagait.png" alt="Overview of skeleton-guided data alignment in DAGait" loading="lazy"></div>
+  <div class="publication-card__content"><strong>DAGait: Generalized Skeleton-Guided Data Alignment for Gait Recognition</strong><br>
+  <i class="publication-authors"><strong class="publication-author-me">Zhengxian Wu†</strong>, Chuanrui Zhang†, Hangrui Xu, Peng Jiao, Haoqian Wang✉.</i><br>
+  DAGait uses skeleton-guided affine alignment to reduce spatial and temporal distribution inconsistencies in unconstrained gait sequences.<br>
+  <b><i class="publication-venue">ICME 2025 · Oral</i></b>
+  <a href="https://arxiv.org/abs/2503.18830" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
+  <a href="https://github.com/DingWu1021/DAGait" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
+</div></div>
+
+<div class="publication-card"><div class="publication-card__inner">
   <div class="pub-media-rotator"><img src="images/publications/silent-failures.png" alt="Taxonomy of silent failures in multimodal agentic search" loading="lazy"></div>
   <div class="publication-card__content"><strong>Silent Failures in Multimodal Agentic Search: A Diagnostic Taxonomy and Cross-Judge Evaluation</strong><br>
   <i class="publication-authors"><strong class="publication-author-me">Zhengxian Wu</strong>, Junjie Gao, Kai Yang✉.</i><br>
@@ -151,24 +171,4 @@ Publications
   <b><i class="publication-venue">ICASSP 2026</i></b>
   <a href="https://arxiv.org/abs/2503.12047" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
   <a href="https://github.com/realHarryX/PSGait" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
-</div></div>
-
-<div class="publication-card"><div class="publication-card__inner">
-  <div class="pub-media-rotator"><img src="images/publications/lmgait.png" alt="Overview of the LMGait architecture" loading="lazy"></div>
-  <div class="publication-card__content"><strong>Language-Guided and Motion-Aware Gait Representation for Generalizable Recognition</strong><br>
-  <i class="publication-authors"><strong class="publication-author-me">Zhengxian Wu†</strong>, Chuanrui Zhang†, Shenao Jiang†, Hangrui Xu, Zirui Liao, Luyuan Zhang, Huaqiu Li, Peng Jiao, Haoqian Wang✉.</i><br>
-  LMGait uses language-derived motion cues together with motion-aware alignment and temporal modeling to learn more generalizable gait representations.<br>
-  <b><i class="publication-venue">AAAI 2026</i></b>
-  <a href="https://arxiv.org/abs/2601.11931" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
-  <a href="https://github.com/DingWu1021/LMGait" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
-</div></div>
-
-<div class="publication-card"><div class="publication-card__inner">
-  <div class="pub-media-rotator"><img src="images/publications/dagait.png" alt="Overview of skeleton-guided data alignment in DAGait" loading="lazy"></div>
-  <div class="publication-card__content"><strong>DAGait: Generalized Skeleton-Guided Data Alignment for Gait Recognition</strong><br>
-  <i class="publication-authors"><strong class="publication-author-me">Zhengxian Wu†</strong>, Chuanrui Zhang†, Hangrui Xu, Peng Jiao, Haoqian Wang✉.</i><br>
-  DAGait uses skeleton-guided affine alignment to reduce spatial and temporal distribution inconsistencies in unconstrained gait sequences.<br>
-  <b><i class="publication-venue">ICME 2025 · Oral</i></b>
-  <a href="https://arxiv.org/abs/2503.18830" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
-  <a href="https://github.com/DingWu1021/DAGait" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
 </div></div>
