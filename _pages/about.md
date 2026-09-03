@@ -22,7 +22,8 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026.08</em></span> 🎉🎉 Three papers (CSRS, DBAgent, and KBMR) were accepted to EMNLP 2026 and ACM MM 2026.</li>
+    <li><span class="news-date"><em>2026.08</em></span> 🎉🎉 Two papers (CSRS and DBAgent) were accepted to EMNLP 2026.</li>
+    <li><span class="news-date"><em>2026.08</em></span> 🎉🎉 One paper (KBMR) was accepted to ACM MM 2026.</li>
     <li><span class="news-date"><em>2026.07</em></span> 🚀 We open-sourced SearchOS, a large-scale agent for broad information gathering.</li>
     <li><span class="news-date"><em>2026.07</em></span> 🎉🎉 One paper (ProMSA) was accepted to ECCV 2026.</li>
     <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 One paper was accepted to a SIGIR 2026 Workshop.</li>
