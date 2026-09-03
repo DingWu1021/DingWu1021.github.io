@@ -359,15 +359,22 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
-    .project-media-placeholder {
+    .project-media-video {
         position: relative;
         width: 320px;
         height: 180px;
         margin-right: 20px;
         border-radius: 8px;
+        overflow: hidden;
         flex: 0 0 auto;
-        background: #f7f7f7;
-        border: 1px dashed #d9d9d9;
+        background: #000;
+    }
+
+    .project-demo-video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .github-star-badge {
@@ -398,7 +405,7 @@
 
         .publication-card .pub-media-rotator,
         .project-card .pub-media-rotator,
-        .project-card .project-media-placeholder {
+        .project-card .project-media-video {
             width: 100% !important;
             height: auto !important;
             aspect-ratio: 16 / 9;

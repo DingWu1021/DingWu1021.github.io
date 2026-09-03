@@ -44,7 +44,12 @@ Projects
 --------
 <div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
-    <div class="project-media-placeholder" aria-label="SearchOS image coming soon"></div>
+    <div class="project-media-video">
+      <video class="project-demo-video" autoplay muted loop playsinline controls preload="metadata" oncanplay="this.play().catch(function() {})" aria-label="SearchOS demonstration video">
+        <source src="videos/searchos-demo.mp4" type="video/mp4">
+        Your browser does not support embedded videos.
+      </video>
+    </div>
     <div>
       <strong>SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration</strong><br>
       SearchOS is a system-level multi-agent framework for robust open-domain information seeking. It externalizes search progress into shared structured state, coordinates pipeline-parallel agents, and grounds collected evidence with citations.<br>
