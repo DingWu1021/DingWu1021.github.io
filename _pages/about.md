@@ -48,26 +48,6 @@ Publications
 </div>
 
 <div class="publication-card"><div class="publication-card__inner">
-  <div class="pub-media-rotator"><img src="images/publications/csrs.png" alt="Overview of the CSRS framework" loading="lazy"></div>
-  <div class="publication-card__content"><strong>Stabilizing Unsupervised Self-Evolution of MLLMs via Continuous Softened Retracing reSampling</strong><br>
-  <i class="publication-authors">Yunyao Yu, <strong>Zhengxian Wu</strong>, Zhuohong Chen, Hangrui Xu, Zirui Liao, Xiangwen Deng, Zhifang Liu, Senyuan Shi, Haoqian Wang.</i><br>
-  CSRS stabilizes unsupervised multimodal self-evolution through retracing-based exploration, softened frequency rewards, and visual semantic perturbation.<br>
-  <b><i class="publication-venue">EMNLP 2026</i></b>
-  <a href="https://arxiv.org/abs/2604.03647" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
-  <a href="https://github.com/yyy195/CSRS" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
-</div></div>
-
-<div class="publication-card"><div class="publication-card__inner">
-  <div class="pub-media-rotator"><img src="images/publications/dbagent.png" alt="Overview of the DBAgent framework" loading="lazy"></div>
-  <div class="publication-card__content"><strong>Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering</strong><br>
-  <i class="publication-authors">Zhuohong Chen, <strong>Zhengxian Wu</strong>, Yunyao Yu, Hangrui Xu, Zirui Liao, Zhifang Liu, Xiangwen Deng, Peng Jiao, Haoqian Wang.</i><br>
-  DBAgent turns knowledge-based visual question answering into a multi-step decision process that adaptively chooses when and how to retrieve evidence.<br>
-  <b><i class="publication-venue">EMNLP 2026</i></b>
-  <a href="https://arxiv.org/abs/2604.07146" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
-  <span class="pub-link-disabled"><em>[code coming soon]</em></span></div>
-</div></div>
-
-<div class="publication-card"><div class="publication-card__inner">
   <div class="pub-media-rotator"><img src="images/publications/promsa.png" alt="Comparison of ProMSA with direct answering and fixed RAG" loading="lazy"></div>
   <div class="publication-card__content"><strong>ProMSA: Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering</strong><br>
   <i class="publication-authors"><strong>Zhengxian Wu</strong>, Hangrui Xu, Kai Shi, Zhuohong Chen, Yunyao Yu, Chuanrui Zhang, Zirui Liao, Jun Yang, Zhenyu Yang, Haonan Lu, Haoqian Wang.</i><br>
@@ -85,6 +65,36 @@ Publications
   <b><i class="publication-venue">SIGIR 2026 SynthIR Workshop</i></b>
   <a href="https://arxiv.org/abs/2607.19793" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
   <a href="https://github.com/DingWu1021/silent-failures-multimodal-agentic-search" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
+</div></div>
+
+<div class="publication-card"><div class="publication-card__inner">
+  <div class="pub-media-rotator"><img src="images/publications/selfjudge.png" alt="Overview of the Self-Judge framework for unsupervised multimodal self-evolution" loading="lazy"></div>
+  <div class="publication-card__content"><strong>When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning</strong><br>
+  <i class="publication-authors"><strong>Zhengxian Wu</strong>, Kai Shi, Chuanrui Zhang, Zirui Liao, Jun Yang, Ni Yang, Qiuying Peng, Luyuan Zhang, Hangrui Xu, Tianhuang Su, Zhenyu Yang, Haonan Lu, Haoqian Wang.</i><br>
+  We introduce an unsupervised self-evolution framework that combines actor self-consistency with a bounded self-judge signal to improve multimodal reasoning without annotated answers.<br>
+  <b><i class="publication-venue">arXiv</i></b>
+  <a href="https://arxiv.org/abs/2603.21289" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
+  <a href="https://github.com/OPPO-Mente-Lab/LLM-Self-Judge" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
+</div></div>
+
+<div class="publication-card"><div class="publication-card__inner">
+  <div class="pub-media-rotator"><img src="images/publications/csrs.png" alt="Overview of the CSRS framework" loading="lazy"></div>
+  <div class="publication-card__content"><strong>Stabilizing Unsupervised Self-Evolution of MLLMs via Continuous Softened Retracing reSampling</strong><br>
+  <i class="publication-authors">Yunyao Yu, <strong>Zhengxian Wu</strong>, Zhuohong Chen, Hangrui Xu, Zirui Liao, Xiangwen Deng, Zhifang Liu, Senyuan Shi, Haoqian Wang.</i><br>
+  CSRS stabilizes unsupervised multimodal self-evolution through retracing-based exploration, softened frequency rewards, and visual semantic perturbation.<br>
+  <b><i class="publication-venue">EMNLP 2026</i></b>
+  <a href="https://arxiv.org/abs/2604.03647" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
+  <a href="https://github.com/yyy195/CSRS" target="_blank" rel="noopener noreferrer"><em>[code]</em></a></div>
+</div></div>
+
+<div class="publication-card"><div class="publication-card__inner">
+  <div class="pub-media-rotator"><img src="images/publications/dbagent.png" alt="Overview of the DBAgent framework" loading="lazy"></div>
+  <div class="publication-card__content"><strong>Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering</strong><br>
+  <i class="publication-authors">Zhuohong Chen, <strong>Zhengxian Wu</strong>, Yunyao Yu, Hangrui Xu, Zirui Liao, Zhifang Liu, Xiangwen Deng, Peng Jiao, Haoqian Wang.</i><br>
+  DBAgent turns knowledge-based visual question answering into a multi-step decision process that adaptively chooses when and how to retrieve evidence.<br>
+  <b><i class="publication-venue">EMNLP 2026</i></b>
+  <a href="https://arxiv.org/abs/2604.07146" target="_blank" rel="noopener noreferrer"><em>[arXiv]</em></a>
+  <span class="pub-link-disabled"><em>[code coming soon]</em></span></div>
 </div></div>
 
 <div class="publication-card"><div class="publication-card__inner">
