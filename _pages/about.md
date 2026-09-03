@@ -9,9 +9,14 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
+About Me
+---------------
 
-Feel free to reach out if you are interested in collaboration or potential opportunities.
+Hi! I’m **Zhengxian Wu**, a third-year master’s student in the Artificial Intelligence program at **Tsinghua Shenzhen International Graduate School (Tsinghua SIGS)**. I am currently a member of the **Future Media Lab**. Before joining Tsinghua, I received my bachelor’s degree from **Hefei University of Technology**.
+
+My research interests lie in **recursive self-improvement (RSI) systems** and the stability of agents performing long-horizon tasks. I am also exploring hybrid human–AI collaboration scenarios, including cowork-style tasks, as well as broader and more flexible forms of search. In addition, I am currently a Research Intern at **Ant Group**, where I work on multimodal search.
+
+I am currently open to full-time opportunities and would be delighted to connect with people who share similar research interests. Please feel free to reach out to me at **[zx-wu24@mails.tsinghua.edu.cn](mailto:zx-wu24@mails.tsinghua.edu.cn)**!
 
 News
 ---------------
