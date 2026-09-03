@@ -7,11 +7,11 @@ main:
   - title: "Experience"
     url: "/#experience"
 
-  - title: "Pub"
-    url: "/#publications"
-
   - title: "Project"
     url: "/#projects"
+
+  - title: "Pub"
+    url: "/#publications"
     
   # - title: "CV-Cn"
   #   url: "/files/chinese_resume.pdf"
