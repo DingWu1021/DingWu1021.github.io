@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Zhengxian Wu"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Zhengxian Wu"
 description              : &description "A clean academic homepage template."
 url                      : ""
 baseurl                  : ""
 repository               : ""
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "profile-avatar.png"
+  name             : "Zhengxian Wu"
   pronouns         :
   bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  location         : "Hangzhou, Zhejiang"
+  employer         : "Tsinghua University"
   uri              :
-  email            : "name@example.com"
+  email            : "zx-wu24@mails.tsinghua.edu.cn"
 
   arxiv            :
   googlescholar    :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "DingWu1021"
   kaggle           :
   stackoverflow    :
 

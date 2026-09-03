@@ -133,6 +133,12 @@
         font-size: 13px;
     }
 
+    .publication-authors .publication-author-me {
+        color: #111827 !important;
+        font-style: normal;
+        font-weight: 900;
+    }
+
     .publication-venue {
         margin-right: 6px;
         color: #526d91 !important;
@@ -415,5 +421,4 @@
             color: #8f315e;
             text-decoration: underline;
         }
-
 
