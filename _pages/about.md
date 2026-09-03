@@ -22,23 +22,15 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+    <li><span class="news-date"><em>2026.08</em></span> 🎉🎉 Three papers, including CSRS and DBAgent, were accepted to EMNLP 2026.</li>
+    <li><span class="news-date"><em>2026.07</em></span> 🚀 We open-sourced SearchOS, a large-scale agent for broad information gathering.</li>
+    <li><span class="news-date"><em>2026.07</em></span> 🎉🎉 One paper (ProMSA) was accepted to ECCV 2026.</li>
+    <li><span class="news-date"><em>2026.06</em></span> 🎉🎉 One paper was accepted to a SIGIR 2026 Workshop.</li>
+    <li><span class="news-date"><em>2026.03</em></span> 🎉🎉 One paper (UniPR) was accepted to CVPR 2026.</li>
+    <li><span class="news-date"><em>2026.02</em></span> 🎉🎉 Two papers (R3G and PSGait) were accepted to ICASSP 2026.</li>
+    <li><span class="news-date"><em>2025.11</em></span> 🎉🎉 One paper (LMGait) was accepted to AAAI 2026.</li>
+    <li><span class="news-date"><em>2025.05</em></span> 🎉🎉 DAGait was selected for an oral presentation at ICME 2025.</li>
+    <li><span class="news-date"><em>2025.03</em></span> 🎉🎉 One paper (DAGait) was accepted to ICME 2025.</li>
   </ul>
 </div>
 
