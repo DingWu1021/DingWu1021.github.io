@@ -12,15 +12,6 @@ main:
 
   - title: "Project"
     url: "/#projects"
-
-  - title: "Awards"
-    url: "/#awards"
-
-  - title: "Services"
-    url: "/#services"
-    
-  - title: "Talks"
-    url: "/#talks"
     
   - title: "CV-En"
     url: "/files/weidongtang_resume.pdf"

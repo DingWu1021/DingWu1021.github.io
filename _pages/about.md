@@ -257,32 +257,3 @@ Projects
     </div>
   </div> 
 </div>
-
-
-Awards
---------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
-
-
-
-Services
---------
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
-
-
-
-Talks
---------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”
