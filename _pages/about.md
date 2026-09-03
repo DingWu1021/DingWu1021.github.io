@@ -57,26 +57,6 @@ Projects
   </div>
 </div>
 
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>WowPage</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
-      </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
-      <br>
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b>
-      <a href=""><em>[code]</em></a>
-    </div>
-  </div>
-</div>
-
-
 Publications
 --------------
 <div class="pub-button-container">
