@@ -1,11 +1,11 @@
 locale                   : "en-US"
-title                    : "Zhengxian Wu"
+title                    : "Zhengxian Wu | Personal Homepage"
 title_separator          : "-"
 name                     : "Zhengxian Wu"
-description              : &description "A clean academic homepage template."
-url                      : ""
+description              : &description "Personal homepage of Zhengxian Wu, an AI researcher at Tsinghua University working on multimodal search, self-improving agents, and long-horizon agent systems."
+url                      : "https://dingwu1021.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "DingWu1021/DingWu1021.github.io"
 
 author:
   avatar           : "profile-avatar.png"
@@ -109,6 +109,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - docs
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
