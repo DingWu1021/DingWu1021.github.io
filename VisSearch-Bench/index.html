@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0d12">
+  <meta name="description" content="VisSearch-Bench evaluates long horizon visual search in multimodal agents: 204 human-written tasks, five search families, and seven knowledge domains.">
+  <title>VisSearch-Bench · Long Horizon Visual Search</title>
+  <link rel="icon" href="assets/hedgehog-a.png" type="image/png">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="container nav" aria-label="Main navigation">
+    <a class="brand" href="#"><img src="assets/hedgehog-a.png" width="32" height="32" alt=""><span>VisSearch<span class="brand-light">-Bench</span></span></a>
+    <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="nav-links">
+      <a href="#overview">Overview</a><a href="#tasks">Tasks</a><a href="#results">Results</a><a href="#cases">Case studies</a><a href="#dataset">Dataset</a>
+    </div>
+    <a class="button button-small button-primary nav-cta" href="https://huggingface.co/datasets/antins-labs/VisSearch-Bench-v1" target="_blank" rel="noopener">Get the dataset <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="eyebrow pill"><span class="status-dot"></span> A benchmark for multimodal agents</span>
+      <div class="hero-brand"><img src="assets/hedgehog-a.png" width="72" height="72" alt=""><h1 class="gradient-text">VisSearch-Bench</h1></div>
+      <p class="hero-title">Evaluating Long Horizon Visual Search<br class="desktop-break"> in Multimodal Agents</p>
+      <div class="authors">
+        <span>ZhengXian Wu<sup>1,2,*,‡</sup></span><span>Qianhao Nie<sup>1,2,*</sup></span><span>Zhuohong Chen<sup>1,*</sup></span><span>Junjie Gao<sup>2</sup></span><span>Yuyao Zhang<sup>2,3</sup></span><span>Yunyao Yu<sup>1</sup></span><span>Hangrui Xu<sup>1</sup></span><span>Cheng Cheng<sup>2</sup></span><span>Guiyu Ma<sup>2</sup></span><span>Jin Zhang<sup>2</sup></span><span>Xingzhong Xu<sup>2</sup></span><span>Kai Yang<sup>2,†</sup></span><span>Haoqian Wang<sup>1,†</sup></span>
+      </div>
+      <p class="affiliations"><span><sup>1</sup> Tsinghua University</span><span><sup>2</sup> Ant Group</span><span><sup>3</sup> Renmin University of China</span></p>
+      <p class="author-notes">* Equal contribution &nbsp; † Corresponding authors &nbsp; ‡ Work done during an internship at Ant Group</p>
+      <p class="hero-description">Can an agent keep track of what it sees<br class="desktop-break"> as the search gets longer?</p>
+      <p class="hero-support">204 human-written tasks that require agents to connect visual evidence,<br class="desktop-break"> object identities, and external facts across the open web.</p>
+      <div class="hero-actions">
+        <!-- Replace these disabled resource buttons with links when the public URLs are ready. -->
+        <button class="button button-primary button-coming" type="button" disabled title="Paper link coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z M14 2v6h6 M8 13h8 M8 17h6"/></svg>Read the paper <span class="coming-label">Coming soon</span></button>
+        <button class="button button-outline button-coming" type="button" disabled title="GitHub link coming soon"><svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297C5.37.297 0 5.67 0 12.297c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.467-1.334-5.467-5.931 0-1.31.467-2.381 1.236-3.221-.124-.303-.536-1.523.117-3.176 0 0 1.008-.323 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.628-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.598 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub <span class="coming-label">Coming soon</span></button>
+        <a class="button button-outline" href="https://huggingface.co/datasets/antins-labs/VisSearch-Bench-v1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5 M4 12c0 4 16 4 16 0"/></svg>Hugging Face</a>
+        <a class="button button-outline" href="#tasks">Explore the tasks <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-showcase">
+        <div class="showcase-topline"><span><span class="status-dot"></span> ONE IMAGE. A CHAIN OF DEPENDENT QUESTIONS.</span><span>FIGURE 2 · TASK 126</span></div>
+        <div class="showcase-body">
+          <button class="showcase-photo" data-task="126" aria-label="Explore task 126: from a building photo to a step-free entrance"><img src="assets/tasks/126-1.webp" alt="The historic building supplied as the initial image in task 126" width="850" height="600" fetchpriority="high"><span class="photo-label">The search starts here <span aria-hidden="true">↗</span></span></button>
+          <div class="showcase-journey"><div class="mini-label">Sequential visual search</div><h2>From a building photo<br>to a step-free entrance.</h2><p>Each answer changes what the agent needs to find next.</p>
+            <ol class="journey"><li><b>01</b><span><strong>Identify the building</strong><small>Match the image to the right wing.</small></span></li><li><b>02</b><span><strong>Trace its history</strong><small>Find the designer, year, and original use.</small></span></li><li><b>03</b><span><strong>Find the makerspace</strong><small>Verify how to visit and whether to book.</small></span></li><li><b>04</b><span><strong>Locate the accessible entrance</strong><small>Connect the evidence to a street name.</small></span></li></ol>
+            <button class="text-button" data-task="126">Read the full question <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+        <div class="showcase-footer"><span>See. Search. Connect. Verify.</span><span>A task illustration from the benchmark</span></div>
+      </div>
+      <div class="stats-row" aria-label="Benchmark at a glance"><div><strong>204</strong><span>Human-written tasks</span></div><div><strong>5</strong><span>Search families</span></div><div><strong>7<span class="stat-secondary"> / 25</span></strong><span>Primary / secondary domains</span></div><div><strong>26.47<span class="stat-secondary">%</span></strong><span>Best reported accuracy</span></div></div>
+    </div>
+  </section>
+
+  <section id="overview" class="section section-alt">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">The research question</span><h2>Seeing is only<br><span class="gradient-text">the beginning.</span></h2><p>Long searches demand more than a correct first impression. An agent must organize, connect, and use visual information as objects, candidates, and search targets change.</p></div>
+      <div class="context-panel">
+        <div class="context-heading"><span class="mini-label">Visual context management</span><h3>Keep the evidence connected.</h3><p>A visual observation must stay linked to the right object, the right source, and the right next step.</p></div>
+        <div class="context-flow" aria-label="Visual observations connect to object identities, external facts, and next search targets"><div><span class="flow-symbol">◉</span><b>Visual evidence</b><small>Appearance · local details · layout</small></div><span class="flow-arrow" aria-hidden="true">→</span><div><span class="flow-symbol">⌘</span><b>Connected context</b><small>Objects · facts · candidates</small></div><span class="flow-arrow" aria-hidden="true">→</span><div><span class="flow-symbol">◎</span><b>The next search</b><small>Compare · filter · follow · verify</small></div></div>
+      </div>
+      <div class="insight-grid"><article><span class="line-number">01 / COVERAGE</span><h3>Find every required item.</h3><p>A convincing partial list can still miss the task. The agent must inspect the complete candidate set and preserve object-level associations.</p></article><article><span class="line-number">02 / CONTINUITY</span><h3>Carry the right context forward.</h3><p>An earlier visual decision can define later searches. A wrong identity or lost constraint can redirect the entire chain.</p></article><article><span class="line-number">03 / VERIFICATION</span><h3>Return to the visual evidence.</h3><p>Textual matches are not enough when the answer depends on a local detail, a spatial relation, or an exact visual identity.</p></article></div>
+    </div>
+  </section>
+
+  <section id="tasks" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Inside the benchmark</span><h2>Seven tasks.<br><span class="gradient-text">Five ways to search.</span></h2><p>Explore the seven examples in Figure 2. Each one turns visual evidence into a different search challenge.</p></div>
+      <div class="featured-shell"><div class="featured-toolbar"><span class="mini-label" id="featured-count">FIGURE 2 · 01 / 07</span><div class="arrow-controls"><button class="icon-button" id="featured-prev" aria-label="Previous featured task">←</button><button class="icon-button" id="featured-next" aria-label="Next featured task">→</button></div></div><div id="featured-detail" aria-live="polite"></div><div class="featured-tabs" id="featured-tabs" aria-label="Choose a featured task"></div></div>
+      <div class="section-bottom"><button class="text-button" data-figure="overview" data-title="Figure 2 · Task taxonomy and examples">View the original Figure 2 <span aria-hidden="true">↗</span></button></div>
+      <div class="subsection-heading"><h3>A taxonomy of visual search.</h3><p>Task families describe the structure of the search, independently of its content domain.</p></div>
+      <div class="family-grid" id="family-grid"></div>
+    </div>
+  </section>
+
+  <section id="construction" class="section section-alt">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Human-written. Evidence-grounded.</span><h2>Built around<br><span class="gradient-text">verifiable search.</span></h2><p>Public sources come first. Questions are built around traceable evidence, fixed reference answers, and explicit visual requirements.</p></div>
+      <div class="construction-steps"><article><b>01</b><h3>Curate public sources</h3><p>Select bounded entity sets, reliable image links, and independently verifiable facts.</p></article><article><b>02</b><h3>Connect the evidence</h3><p>Organize entities, images, candidate sets, and facts into traceable evidence structures.</p></article><article><b>03</b><h3>Write the task</h3><p>Apply a search-family structure, then lock the reference answer and solution.</p></article><article><b>04</b><h3>Check and review</h3><p>Verify coverage, accessibility, and shortcuts; human reviewers inspect every retained task.</p></article></div>
+      <button class="paper-figure" data-figure="construction" data-title="Figure 3 · Dataset construction pipeline"><img src="assets/figures/construction.webp" alt="The paper's human-led dataset construction pipeline" loading="lazy"><span>Figure 3 · Construction pipeline <span aria-hidden="true">↗</span></span></button>
+      <div class="coverage-grid"><div><span class="eyebrow">Breadth meets depth</span><h3>Seven domains.<br>Many kinds of visual evidence.</h3><p>From museum collections and scientific specimens to buildings, devices, and everyday objects.</p><div id="domain-bars" class="domain-bars"></div></div><div class="coverage-visual"><button class="paper-figure" data-figure="domains" data-title="Figure 4 · Seven primary and 25 secondary domains"><img src="assets/figures/domains.webp" alt="Domain taxonomy with seven primary domains and 25 secondary domains" loading="lazy"><span>Explore the full domain taxonomy <span aria-hidden="true">↗</span></span></button><div class="small-stats"><div><strong>187</strong><span>Tasks with initial images</span></div><div><strong>17</strong><span>Text-initiated visual searches</span></div><div><strong>17.6</strong><span>Mean reference-solution steps</span></div><div><strong>61</strong><span>Maximum reference-solution steps</span></div></div><p class="fine-print">Reference-solution steps include planning, checks, and answer preparation. They are not tool-call counts.</p></div></div>
+    </div>
+  </section>
+
+  <section id="results" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Main results</span><h2>Search helps.<br><span class="gradient-text">The challenge remains.</span></h2><p>The strongest reported system fully solves 26.47% of tasks. Partial progress and complete answers reveal different strengths.</p></div>
+      <div class="result-highlights"><article><span class="mini-label">Best complete-answer accuracy</span><strong>26.47<small>%</small></strong><p>Kimi-K3 <span>· ReAct</span></p></article><article><span class="mini-label">Best process score</span><strong>49.52<small>%</small></strong><p>GPT-5.5 <span>· ReAct</span></p></article><article><span class="mini-label">Best direct-answer accuracy</span><strong>6.37<small>%</small></strong><p>GPT-5.5 / Gemini 3.5 Flash</p></article></div>
+      <div class="results-panel">
+        <div class="panel-heading"><div><h3>Explore the paper results</h3><p>16 models · 26 evaluated configurations · Pass@1</p></div><button class="button button-small button-outline" id="download-results">Download current view ↓</button></div>
+        <div class="results-filters"><label>Setting<select id="result-setting"><option value="all">All settings</option><option>Direct Answer</option><option>ReAct</option><option>DeerFlow</option></select></label><label>Evaluation slice<select id="result-slice"><option value="overall">Overall · 204 tasks</option></select></label><label>Sort by<select id="result-sort"><option value="accuracy">Accuracy ↓</option><option value="ps">Process Score ↓</option><option value="model">Model name A–Z</option></select></label></div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Evaluation results table"><table class="leaderboard"><thead><tr><th scope="col">Rank</th><th scope="col">Model / backbone</th><th scope="col">Setting</th><th scope="col" id="accuracy-header">Accuracy (%)</th><th scope="col" id="ps-header">Process Score (%)</th></tr></thead><tbody id="results-body"></tbody></table></div>
+        <div class="results-expand"><button id="toggle-results" class="text-button" aria-expanded="false" aria-controls="results-body">Show all configurations ↓</button></div>
+        <div class="panel-footnote"><span id="results-caption" aria-live="polite"></span><span>Source: paper Tables 3–4 · Higher is better</span></div>
+      </div>
+      <p class="fine-print center">Overall scores are micro-averages over 204 tasks. Only evaluated model–setting combinations are shown.</p>
+      <details class="figure-details"><summary>See the paper’s model comparison figure</summary><button class="paper-figure" data-figure="results" data-title="Figure 1 · Model accuracy overview"><img src="assets/figures/results.webp" alt="Accuracy overview from Figure 1 of the manuscript" loading="lazy"><span>Figure 1 · Click to enlarge <span aria-hidden="true">↗</span></span></button></details>
+    </div>
+  </section>
+
+  <section id="visual-access" class="section section-alt">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">The role of visual access</span><h2>What changes when<br><span class="gradient-text">agents can inspect images?</span></h2><p>The paper compares four settings to examine the contribution of retrieved visual evidence.</p></div>
+      <div class="ablation-grid"><div class="ablation-explanation"><h3>Same tasks. Different access.</h3><p class="important-note">All four settings retain the task’s initial images.</p><ol class="access-settings"><li><i class="legend-dot direct"></i><div><strong>Direct Answer</strong><p>Question and initial images, without external tools.</p></div></li><li><i class="legend-dot text"></i><div><strong>Text</strong><p>ReAct with text web search and page reading.</p></div></li><li><i class="legend-dot caption"></i><div><strong>Caption</strong><p>Retrieved images are represented by VLM-generated descriptions.</p></div></li><li><i class="legend-dot full"></i><div><strong>Full</strong><p>ReAct can inspect retrieved images and crop visual details.</p></div></li></ol></div><div class="ablation-chart-panel"><div class="chart-controls"><label>Backbone<select id="ablation-model"></select></label><div class="segmented" aria-label="Ablation metric"><button class="active" data-ablation-metric="accuracy" aria-pressed="true">Accuracy</button><button data-ablation-metric="ps" aria-pressed="false">Process Score</button></div></div><div id="ablation-chart" class="ablation-chart" aria-live="polite"></div><div class="ablation-gain" id="ablation-gain"></div><p class="fine-print">Scores over all 204 tasks (%). Gains are percentage points, computed before rounding in paper Table 5.</p></div></div>
+      <details class="figure-details"><summary>Explore tool use and efficiency in the paper</summary><p class="details-intro">The paper analyzes when agents use visual tools and how performance relates to tool calls and runtime.</p><button class="paper-figure" data-figure="behavior" data-title="Figure 5 · Tool behavior and efficiency"><img src="assets/figures/behavior.webp" alt="Paper plots of visual tool use, tool calls, runtime, and performance" loading="lazy"><span>Figure 5 · Original units and labels retained <span aria-hidden="true">↗</span></span></button></details>
+    </div>
+  </section>
+
+  <section id="cases" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Inside the search process</span><h2>Finding evidence is one thing.<br><span class="gradient-text">Using it is another.</span></h2><p>17 appendix case studies show successful searches and the points where visual context breaks down.</p></div>
+      <div class="comparison-heading"><div><span class="mini-label">Same task · Different outcomes</span><h3>The correct makerspace: found, then lost.</h3><p>In task 126, one run connects the building to its step-free entrance. Another finds the right makerspace, then selects a different entity.</p></div><button class="text-button" data-task="126">Read task 126 ↗</button></div>
+      <div class="comparison-grid"><article class="comparison-card success"><div><span class="outcome success">Successful case</span><span class="mini-label">FIGURE S3</span></div><h4>Preserve the connection.</h4><p>The run carries the building identity through historical records, makerspace information, and entrance verification.</p><footer><span>GPT-5.5 · ReAct</span><button class="text-button" data-case="S3">Inspect case →</button></footer></article><article class="comparison-card failure"><div><span class="outcome failure">Failure case</span><span class="mini-label">FIGURE S6</span></div><h4>Lose the right intermediate entity.</h4><p>The run encounters the correct makerspace and conflicting evidence, but its final response chooses the wrong entity.</p><footer><span>Qwen3.6-35B-A3B · DeerFlow</span><button class="text-button" data-case="S6">Inspect case →</button></footer></article></div>
+      <p class="fine-print">A qualitative comparison of two reported runs. The backbones and frameworks differ; this is not a controlled framework comparison.</p>
+      <div class="case-browser"><div class="panel-heading"><div><h3>Read all 17 case studies</h3><p>Selected steps and outcomes reproduced from the paper.</p></div><label class="compact-label">Outcome<select id="case-filter"><option value="all">All cases · 17</option><option value="Success">Success · 7</option><option value="Failure">Failure · 10</option></select></label></div><div class="case-layout"><div id="case-list" class="case-list" aria-label="Appendix case selection"></div><div class="case-detail" id="case-detail" aria-live="polite"></div></div></div>
+    </div>
+  </section>
+
+  <section id="dataset" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Evaluate and build</span><h2>From a benchmark<br><span class="gradient-text">to your next experiment.</span></h2><p>Download the English release, inspect the reference evidence, and evaluate complete answers alongside partial progress.</p></div>
+      <div class="metric-grid"><article><div class="metric-symbol">Acc.</div><div><h3>Complete-answer accuracy</h3><p>Does the complete answer satisfy the task requirements? All and only the required content must be present, under task-specific matching rules.</p></div></article><article><div class="metric-symbol">PS</div><div><h3>Process Score</h3><p>How correct and complete are the individual results and subquestion answers? Scoring follows the rules provided for each task.</p></div></article></div>
+      <div class="resource-grid"><div class="resource-description"><span class="eyebrow">The English release</span><h3>Ready to explore<br>on Hugging Face.</h3><p>204 tasks in the <code>test</code> split, with initial images, reference answers, reference solutions, and English evaluation prompts.</p><a class="button button-primary" href="https://huggingface.co/datasets/antins-labs/VisSearch-Bench-v1" target="_blank" rel="noopener">Open the dataset ↗</a><p class="fine-print">17 tasks start without an image and require visual evidence found during search.</p></div><div class="code-panel"><div class="code-heading"><span>Python · datasets</span><button class="text-button" data-copy="load-code">Copy code</button></div><pre><code id="load-code">from datasets import load_dataset
+
+dataset = load_dataset(
+    "antins-labs/VisSearch-Bench-v1",
+    split="test",
+)
+
+task = dataset[0]
+print(task["question_en"])
+images = task["images"]
+reference_answer = task["answer"]</code></pre></div></div>
+      <details class="schema-details"><summary>What is included in each task?</summary><div class="table-scroll"><table class="schema"><thead><tr><th>Field</th><th>Content</th></tr></thead><tbody><tr><td><code>id</code></td><td>Stable task identifier.</td></tr><tr><td><code>category_name</code> / <code>domain</code></td><td>Search family and primary content domain.</td></tr><tr><td><code>question_en</code></td><td>Complete English question and output requirements.</td></tr><tr><td><code>images</code></td><td>Ordered initial input images; an empty list for text-initiated tasks.</td></tr><tr><td><code>answer</code></td><td>Reference answer.</td></tr><tr><td><code>gold_trajectory</code></td><td>Reference solution with traceable evidence.</td></tr><tr><td><code>accuracy_prompt</code></td><td>English prompt for complete-answer grading.</td></tr><tr><td><code>Process Score</code></td><td>English prompt for task-specific partial-credit grading.</td></tr></tbody></table></div><p class="fine-print">The two grading fields contain prompt text, not numerical model scores. The reference solution is separate from the model trajectories illustrated in the paper.</p></details>
+      <div class="faq"><h3>A few useful details.</h3><details><summary>What makes these tasks visually grounded?</summary><p>Critical decisions depend on visual evidence: object appearance, local details, candidate comparisons, or image structure. Construction checks are designed to reject tasks that can bypass these requirements through text-only shortcuts.</p></details><details><summary>Why do some tasks have no initial image?</summary><p>They begin with a text instruction that defines what to search. The agent still needs to find and inspect images during the search. There are 17 such tasks in the 204-task release.</p></details><details><summary>How are the evaluated settings different?</summary><p>Direct Answer uses the question and initial images without external tools. ReAct and DeerFlow are agent frameworks evaluated with selected model backbones. The paper reports only the model–setting combinations actually evaluated. See the paper for each framework’s tools and budgets.</p></details></div>
+    </div>
+  </section>
+
+  <section id="paper" class="section section-alt paper-section"><div class="container"><div class="paper-resource"><img src="assets/hedgehog-a.png" width="64" height="64" alt=""><div><span class="eyebrow">Read the paper</span><h2>VisSearch-Bench</h2><p>Evaluating Long Horizon Visual Search in Multimodal Agents</p></div><button class="button button-primary button-coming" type="button" disabled title="Paper link coming soon">Paper <span class="coming-label">Coming soon</span></button></div><div class="citation-panel"><div class="code-heading"><span>Suggested citation · manuscript</span><button class="text-button" data-copy="citation">Copy BibTeX</button></div><pre><code id="citation">@misc{wu2026vissearchbench,
+  title = {VisSearch-Bench: Evaluating Long Horizon Visual Search
+           in Multimodal Agents},
+  author = {Wu, ZhengXian and Nie, Qianhao and Chen, Zhuohong
+            and Gao, Junjie and Zhang, Yuyao and Yu, Yunyao
+            and Xu, Hangrui and Cheng, Cheng and Ma, Guiyu
+            and Zhang, Jin and Xu, Xingzhong and Yang, Kai
+            and Wang, Haoqian},
+  year = {2026},
+  howpublished = {Manuscript},
+  url = {https://huggingface.co/datasets/antins-labs/VisSearch-Bench-v1}
+}</code></pre></div></div></section>
+</main>
+<footer class="site-footer"><div class="container"><a class="brand" href="#"><img src="assets/hedgehog-a.png" width="28" height="28" alt="">VisSearch-Bench</a><p>Tsinghua University · Ant Group · Renmin University of China</p><a href="#main">Back to top ↑</a></div></footer>
+<dialog id="task-dialog" class="task-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="mini-label">BENCHMARK TASK</span><button class="icon-button" data-close="task-dialog" aria-label="Close task details">×</button></div><div id="task-dialog-content"></div></dialog>
+<dialog id="image-dialog" class="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title"></h2><button class="icon-button" data-close="image-dialog" aria-label="Close image">×</button></div><img id="zoom-image" src="assets/hedgehog-a.png" alt=""><p class="fine-print">Scroll to inspect the figure. Press Escape to close.</p></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript-message">Enable JavaScript to explore tasks, cases, and interactive results. The paper and Hugging Face dataset remain available through the links above.</p></noscript>
+</body>
+</html>
